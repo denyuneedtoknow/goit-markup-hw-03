@@ -1,2 +1,3 @@
-# goit-markup-hw-03
-goit ДЗ №3
+# goit-markup-hw-02
+Homework 02 HTML+CSS 35 GOIT
+
