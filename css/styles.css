@@ -1,136 +1,265 @@
-:root {
-    --main-color: #2f303a;
-    --important-text-color: #212121;
-    --common-text-color: #757575;
-    --secondary-text-color: rgba(255, 255, 255, 0.6);
-    --important-color: #ffffff;
-    --accent-color: #2196f3;
-    --background-color-main: #e5e5e5;
-    --background-color-secondary: #f5f4fa;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.hidden {
-    display: none;
-}
-
-
-/* header styles */
-
-header {
-    background-color: var(--important-color);
-}
-
-.logo {
-    color: var(--accent-color);
-}
-
-.studio-up {
-    color: #000000;
-}
-
-.header-contacts {
-    color: var(--common-text-color);
-    text-decoration: none;
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-    color: var(--accent-color);
-}
-
-.navigation-links:hover,
-.navigation-links:focus {
-    color: var(--accent-color);
-}
-
-.navigation-links {
-    color: var(--important-text-color);
-}
-
-.navigation-links .current {
-    color: var(--accent-color);
-}
-
-
-/* main styles */
-
-.main-button {
-    background-color: var(--accent-color);
-    color: var(--important-color);
-}
-
-
-/* Hero Section styles */
-
-.hero-section {
-    background-color: var(--main-color);
-    color: var(--important-color);
-}
-
-
-/* Advantages section styles */
-
-.advantages-section,
-.work-section {
-    background-color: var(--important-color);
-}
-
-.advantages-header {
-    color: var(--important-text-color);
-}
-
-.advantages-paragraph {
-    color: var(--common-text-color);
-}
-
-
-/* Work section*/
-
-.work-section-header,
-.team-section-header {
-    color: var(--important-text-color);
-}
-
-
-/* Team section */
-
-.team-section {
-    background-color: var(--background-color-secondary);
-}
-
-.teammates-names {
-    color: var(--important-text-color);
-}
-
-.teammates-position {
-    color: var(--common-text-color);
-}
-
-
-/* footer styles */
-
-footer {
-    background-color: var(--main-color);
-}
-
-.studio-down {
-    color: var(--important-color);
-}
-
-.actual-address {
-    color: var(--important-color);
-}
-
-.footer-contacts {
-    color: var(--secondary-text-color);
-    text-decoration: none;
-}
-
-.footer-contacts:hover,
-.footer-contacts:focus {
-    color: var(--accent-color);
-}
+         :root {
+            --main-color: #2f303a;
+            --important-text-color: #212121;
+            --common-text-color: #757575;
+            --secondary-text-color: rgba(255, 255, 255, 0.6);
+            --important-color: #ffffff;
+            --accent-color: #2196f3;
+            --background-color-main: #e5e5e5;
+            --background-color-secondary: #f5f4fa;
+        }
+        
+        body {
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            color: var(--common-text-color);
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            outline: 1px solid yellowgreen;
+        }
+        
+        .hidden {
+            position: absolute !important;
+            clip: rect(1px 1px 1px 1px);
+            clip: rect(1px, 1px, 1px, 1px);
+            padding: 0 !important;
+            border: 0 !important;
+            height: 1px !important;
+            width: 1px !important;
+            overflow: hidden;
+        }
+        
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1440px;
+            padding-left: 20px;
+            padding-right: 20px;
+            outline: 1px solid #2196f3;
+        }
+        /* header styles */
+        
+        header {
+            background-color: var(--important-color);
+            outline: 1px solid tomato;
+        }
+        
+        .logo {
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            color: var(--accent-color);
+        }
+        
+        .studio-up {
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            color: #000000;
+        }
+        
+        .logo-link {
+            text-decoration: none;
+        }
+        
+        .header-contacts {
+            color: var(--common-text-color);
+            text-decoration: none;
+        }
+        
+        .header-contacts:hover,
+        .header-contacts:focus {
+            color: var(--accent-color);
+        }
+        
+        .navigation-links:hover,
+        .navigation-links:focus {
+            color: var(--accent-color);
+        }
+        
+        .navigation-links {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--important-text-color);
+            text-decoration: none;
+        }
+        
+        .navigation-links .current {
+            color: var(--accent-color);
+        }
+        /* main styles */
+        /* Hero Section styles */
+        
+        .hero-section {
+            background-color: var(--main-color);
+            color: var(--important-color);
+            outline: 1px solid lawngreen;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 200px;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 40px;
+            outline: 1px solid red;
+        }
+        
+        .main-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--important-color);
+            cursor: pointer;
+            min-width: 200px;
+            padding: 10px 32px;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: inherit;
+            border: 1px solid var(--accent-color);
+            text-align: center;
+            border-radius: 4px;
+            margin-bottom: 200px;
+        }
+        /* Advantages section styles */
+        
+        .advantages-section,
+        .work-section {
+            background-color: var(--important-color);
+            outline: 1px solid blue;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        .advantages-section {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
+        
+        .advantages-header {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+            color: var(--important-text-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .advantages-paragraph,
+        .teammates-position {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        /* Work section styles*/
+        
+        .work-section-header,
+        .team-section-header {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.16;
+            text-align: center;
+            color: var(--important-text-color);
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+        /* Team section styles*/
+        
+        .team-section {
+            background-color: var(--background-color-secondary);
+        }
+        
+        .teammates-names {
+            color: var(--important-text-color);
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        /* Portfolio page styles */
+        
+        .simple-button {
+            display: inline-block;
+            background-color: var(--background-color-secondary);
+            color: var(--important-text-color);
+            font-family: inherit;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            min-width: 75px;
+            padding: 6px 22px;
+        }
+        
+        .simple-button:hover,
+        .simple-button:focus {
+            background-color: var(--accent-color);
+            color: var(--important-color);
+            border: 1px solid var(--accent-color);
+        }
+        
+        .product-header {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            color: var(--important-text-color);
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        .product-description {
+            font-size: 16px;
+            line-height: 1.87;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        /* footer styles */
+        
+        footer {
+            background-color: var(--main-color);
+        }
+        
+        .studio-down {
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            color: var(--important-color);
+        }
+        
+        .actual-address {
+            color: var(--important-color);
+        }
+        
+        address {
+            font-style: normal;
+        }
+        
+        .footer-contacts {
+            color: var(--secondary-text-color);
+            text-decoration: none;
+        }
+        
+        .footer-contacts:hover,
+        .footer-contacts:focus {
+            color: var(--accent-color);
+        }
