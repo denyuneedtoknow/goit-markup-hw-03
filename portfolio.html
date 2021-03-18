@@ -17,7 +17,7 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-main">
             <div class="logo-container">
                 <a href="index.html" class="logo-link"><span class="logo">Web</span><span class="studio-up">Studio</span></a>
             </div>
@@ -28,73 +28,86 @@
                     <li class="nav-set-item"><a href="" class="navigation-links">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="contacts-set">
-                <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
-                <a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a>
-            </div>
 
+            <ul class="list contacts-set">
+                <li class="contacts-set-item"><a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
+                </li>
+                <li class="contacts-set-item"><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a>
+                </li>
+            </ul>
         </div>
-
     </header>
 
     <main>
         <h1 class="hidden">Портфолио</h1>
-        <div class="container">
-            <ul class="list">
-                <li><button type="button" class="simple-button">Все</button></li>
-                <li><button type="button" class="simple-button">Веб-сайты</button></li>
-                <li><button type="button" class="simple-button">Приложения</button></li>
-                <li><button type="button" class="simple-button">Дизайн</button></li>
-                <li><button type="button" class="simple-button">Маркетинг</button></li>
+        <div class="filter container">
+            <ul class="filter-buttons list">
+                <li class="filter-buttons-item"><button type="button" class="simple-button">Все</button></li>
+                <li class="filter-buttons-item"><button type="button" class="simple-button">Веб-сайты</button></li>
+                <li class="filter-buttons-item"><button type="button" class="simple-button">Приложения</button></li>
+                <li class="filter-buttons-item"><button type="button" class="simple-button">Дизайн</button></li>
+                <li class="filter-buttons-item"><button type="button" class="simple-button">Маркетинг</button></li>
             </ul>
         </div>
         <div class="container">
-            <ul class="list">
-                <li><img src="./images/PF1.jpg" alt="пример веб-сайта" width=370>
+            <ul class="examples-set list">
+                <li class="examples-set-items">
+                    <img src="./images/PF1.jpg" alt="пример веб-сайта" width=370>
                     <h2 class="product-header">Технохряк</h2>
                     <p class="product-description">Веб-сайт</p>
                 </li>
-                <li><img src="./images/PF2.jpg" alt="пример дизайна" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF2.jpg" alt="пример дизайна" width=370>
                     <h2 class="product-header">Постер New Orlean vs Golden Star</h2>
                     <p class="product-description">Дизайн</p>
                 </li>
-                <li><img src="./images/PF3.jpg" alt="пример приложения" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF3.jpg" alt="пример приложения" width=370>
                     <h2 class="product-header">Ресторан Seafood</h2>
                     <p class="product-description">Приложение</p>
                 </li>
-                <li><img src="./images/PF4.jpg" alt="пример маркетингового решения" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF4.jpg" alt="пример маркетингового решения" width=370>
                     <h2 class="product-header">Проект Prime</h2>
                     <p class="product-description">Маркетинг</p>
                 </li>
-                <li><img src="./images/PF5.jpg" alt="пример приложения" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF5.jpg" alt="пример приложения" width=370>
                     <h2 class="product-header">Проект Boxes</h2>
                     <p class="product-description">Приложение</p>
                 </li>
-                <li><img src="./images/PF6.jpg" alt="пример веб-сайта" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF6.jpg" alt="пример веб-сайта" width=370>
                     <h2 class="product-header">Inspiration has no Borders</h2>
                     <p class="product-description">Веб-сайт</p>
                 </li>
-                <li><img src="./images/PF7.jpg" alt="пример дизайна" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF7.jpg" alt="пример дизайна" width=370>
                     <h2 class="product-header">Издание Limited Edition</h2>
                     <p class="product-description">Дизайн</p>
                 </li>
-                <li><img src="./images/PF8.jpg" alt="пример маркетингового решения" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF8.jpg" alt="пример маркетингового решения" width=370>
                     <h2 class="product-header">Проект LAB</h2>
                     <p class="product-description">Маркетинг</p>
                 </li>
-                <li><img src="./images/PF9.jpg" alt="пример приложения" width=370>
+                <li class="examples-set-items">
+                    <img src="./images/PF9.jpg" alt="пример приложения" width=370>
                     <h2 class="product-header">Growing Business</h2>
                     <p class="product-description">Приложение</p>
                 </li>
             </ul>
         </div>
     </main>
-    <footer class="container">
-        <a href="index.html" class="logo-link"><span class="logo">Web</span><span class="studio-down">Studio</span></a>
-        <address><span class="actual-address">г. Киев, пр-т Леси Украинки, 26 </span><br>
+    <footer class="main-foter">
+        <div class="footer-logo container">
+            <a href="index.html" class="logo-link"><span class="logo">Web</span><span class="studio-down">Studio</span></a></div>
+        <div class="footer-address container">
+            <address><span class="actual-address">г. Киев, пр-т Леси Украинки, 26 </span><br>
             <a href="mailto:info@devstudio.com" class="footer-contacts">info@devstudio.com</a><br>
             <a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a>
-        </address>
+        </address></div>
+
     </footer>
 </body>
 
